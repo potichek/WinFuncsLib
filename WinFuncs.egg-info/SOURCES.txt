@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+WinFuncs/WinFuncs.py
+WinFuncs/__init__.py
+WinFuncs.egg-info/PKG-INFO
+WinFuncs.egg-info/SOURCES.txt
+WinFuncs.egg-info/dependency_links.txt
+WinFuncs.egg-info/requires.txt
+WinFuncs.egg-info/top_level.txt

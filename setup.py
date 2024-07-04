@@ -5,13 +5,13 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='WinFuncs',
-    version='0.0.1',
+    version='0.0.2',
     author='potichek',
     author_email='bibilmeshka@gmail.com',
     description='Simplifying various WinAPI functions, with this library you won`t need to use ctypes to call WinAPI functions.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/myusername/mypackage',
+    url='https://github.com/potichek/WinFuncsLib/blob/main/WinFuncs',
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -20,6 +20,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'somepackage>=1.1.0',
+        'setuptools>=39.0.1',
     ]
 )
