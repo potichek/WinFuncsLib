@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='WinFuncs',
-    version='0.0.2',
+    version='0.0.3',
     author='potichek',
     author_email='bibilmeshka@gmail.com',
     description='Simplifying various WinAPI functions, with this library you won`t need to use ctypes to call WinAPI functions.',
