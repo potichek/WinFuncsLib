@@ -21,5 +21,6 @@ setuptools.setup(
     python_requires='>=3.6',
     install_requires=[
         'setuptools>=39.0.1',
-    ]
+    ],
+    package_data={'src': ['WinFuncs.dll']},
 )
