@@ -1,6 +1,6 @@
 import ctypes
 
-_WinFuncs_dll = ctypes.CDLL('WinFuncs/WinFuncs.dll')
+_WinFuncs_dll = ctypes.CDLL('WinFuncs.dll')
 _WinFuncs_dll.move_cursor_absolute.argtypes = (ctypes.c_short, ctypes.c_short)
 _WinFuncs_dll.move_cursor.argtypes = (ctypes.c_short, ctypes.c_short)
 
