@@ -7,8 +7,8 @@ WinFuncs.egg-info/dependency_links.txt
 WinFuncs.egg-info/requires.txt
 WinFuncs.egg-info/top_level.txt
 winfuncs/WinFuncs.dll
-winfuncs/WinFuncs.py
 winfuncs/__init__.py
+winfuncs/_winfuncs.py
 winfuncs.egg-info/PKG-INFO
 winfuncs.egg-info/SOURCES.txt
 winfuncs.egg-info/dependency_links.txt
