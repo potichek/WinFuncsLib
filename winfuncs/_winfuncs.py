@@ -2,7 +2,7 @@ import ctypes
 import os
 
 path_dll = str(ctypes.__path__[0])
-path_dll = path_dll[0 : (len(path_dll) - 6)] + 'WinFuncs.dll'
+path_dll = path_dll[0 : (len(path_dll) - 6)] + 'site-packages\\winfuncs\\WinFuncs.dll'
 print(f'path: {path_dll}')
 _WinFuncs_dll = ctypes.CDLL(path_dll)
 _WinFuncs_dll.move_cursor_absolute.argtypes = (ctypes.c_short, ctypes.c_short)
