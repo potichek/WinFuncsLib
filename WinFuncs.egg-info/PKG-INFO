@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: winfuncs
-Version: 0.1.0
+Version: 0.1.1
 Summary: Simplifying various WinAPI functions, with this library you won`t need to use ctypes to call WinAPI functions.
 Home-page: https://github.com/potichek/WinFuncsLib/blob/main/WinFuncs
 Author: potichek

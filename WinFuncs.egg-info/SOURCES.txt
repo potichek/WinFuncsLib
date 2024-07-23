@@ -6,6 +6,7 @@ WinFuncs.egg-info/SOURCES.txt
 WinFuncs.egg-info/dependency_links.txt
 WinFuncs.egg-info/requires.txt
 WinFuncs.egg-info/top_level.txt
+winfuncs/KeyboardHookProc.dll
 winfuncs/WinFuncs.dll
 winfuncs/__init__.py
 winfuncs/_winfuncs.py
