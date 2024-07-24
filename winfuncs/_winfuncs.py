@@ -1,13 +1,14 @@
 import ctypes
 import os
+import site
+import sysconfig
 
-home_path = str(ctypes.__path__[0])
-home_path = home_path[0: (len(home_path) - 6)] + 'site-packages\\winfuncs\\'
-_WinFuncs_dll = ctypes.CDLL(home_path + 'WinFuncs.dll');
+_home_path = str(sysconfig.get_paths()['purelib']) + '\\winfuncs\\'
+_WinFuncs_dll = ctypes.CDLL(_home_path + 'WinFuncs.dll');
 _WinFuncs_dll.move_cursor_absolute.argtypes = (ctypes.c_short, ctypes.c_short)
 _WinFuncs_dll.move_cursor.argtypes = (ctypes.c_short, ctypes.c_short)
 _WinFuncs_dll.set_dll_directory.argtypes = (ctypes.c_wchar_p, )
-_WinFuncs_dll.set_dll_directory(ctypes.c_wchar_p(home_path))
+_WinFuncs_dll.set_dll_directory(ctypes.c_wchar_p(_home_path))
 
 def move_cursor(x: int, y: int) -> None:
     global _WinFuncs_dll
